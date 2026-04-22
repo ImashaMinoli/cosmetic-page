@@ -62,3 +62,13 @@ button-container{
     width:100%;
     border-radius: 10px;
 }
+
+.a1 {
+    color: white;
+    text-decoration-line: none;
+}
+
+.a1:visited {
+    color: #e4decfde;
+    text-decoration-line: none;
+}
