@@ -1,6 +1,11 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #ead9d9;
+    background-color: #a1ecb8;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
 }
 
 .container {
@@ -17,7 +22,7 @@ body {
 
 .product {
     border: 1px solid #d2080886;
-    padding: 20px;
+    padding: 50px;
     width: 200px;
     background-color: #fff;
     border-radius: 15px;
@@ -26,7 +31,7 @@ body {
 }
 
 button{
-    background: #d74777;
+    background: #7f59067b;
     color: white;
     border: none;
     width:100px;
