@@ -1,6 +1,6 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #a1ecb8;
+    font-family: Arial;
+     background: linear-gradient(135deg,#82f7a5,#9b59b6)
 }
 
 h1{
@@ -32,10 +32,11 @@ button{
     color: white;
     border: none;
     width:100px;
+    height:50px;
     border-radius: 8px;
     padding: 10px 20px;
     margin: 10px 3px;
-
+    
     cursor: pointer;
     transition:opacity 0.15s;
 }
@@ -52,17 +53,26 @@ button:active{
 button-container{
     display:inline-block;
     margin-right:10px;
+    
 }
 
 .price{
     color:#d74777;
     font-size: 20px;
     font-weight: bold;
+    padding-top: 10px;
+    
 }
 
 .product img{
     width:100%;
     border-radius: 10px;
+}
+
+.product h2{
+    height: 100px;
+    justify-content: center;
+    justify-items: center;
 }
 
 .a1 {
@@ -75,3 +85,44 @@ button-container{
     text-decoration-line: none;
 }
 
+.b1 {
+    color: white;
+    text-decoration-line: none;
+}
+
+.b1:visited {
+    color: #e4decfde;
+    text-decoration-line: none;
+}
+.image{
+    width:600px;
+    height:200px;
+}
+
+form{
+    background-color:white;
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+
+input{
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: black;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+label{
+    width: 100px;
+}
